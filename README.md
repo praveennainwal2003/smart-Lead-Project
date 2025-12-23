@@ -26,5 +26,27 @@ This system processes a batch of names, enriches them using an external API, app
 ## 🚀 How to Run Locally
 
 ### Backend
-```bash .. 
+```bash ..
+
+```bash
+cd backend
+npm install
+npm run dev
+
+Frontend
+cd frontend
+npm install
+npm start
+
+
+Runs on http://localhost:3000
+
+🔐 Environment Variables
+
+Create .env inside backend:
+
+PORT=5000
+MONGO_URI=your_mongodb_atlas_url
+
+
 
